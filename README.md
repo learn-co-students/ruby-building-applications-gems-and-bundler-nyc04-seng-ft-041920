@@ -45,7 +45,7 @@ And see your terminal respond by indicating that RSpec has been installed. When
 we run this command, Ruby locates the gem, [looking in RubyGems by default][], and
 if found, downloads and installs the latest version to your computer.
 
-[looking in RubyGems by default]: https://rubygems.org/gems/rspec/versions/3.8.0
+[looking in rubygems by default]: https://rubygems.org/gems/rspec/versions/3.8.0
 
 The key, really, is knowing the correct name so that you install the gem that
 you want.
@@ -180,7 +180,7 @@ downloaded, allowing _other users_ to quickly install all the gems at once. We
 do this using [Bundler][], typing `bundle install` in the terminal while in a
 Ruby application directory. Bundler will install any gems listed.
 
-[Bundler]: https://bundler.io/
+[bundler]: https://bundler.io/
 
 #### How to Add the Gem to your Gemfile
 
@@ -229,7 +229,7 @@ This number reflects a patch, which is a change to a gem to fix a bug but not
 introduce new functionality. `1.8.3` means major version 1, minor version 8, and
 a patch version 3.
 
-The `'~> 1.8'` listed after `awesome_print`  means this application should use
+The `'~> 1.8'` listed after `awesome_print` means this application should use
 version 1.8 _or the latest minor version_ up to 1.x, **but not 2.0**.
 
 **Note:** Writing `'~> 1.8.0'` will result in different behavior - rather than
@@ -244,7 +244,7 @@ our application would use version 1.8.0 up to 1.8.x, **but not 1.9.0**!
 You can read more about controlling gem versions and additional options in the
 [documentation on RubyGems][]
 
-[documentation on RubyGems]: https://guides.rubygems.org/patterns/
+[documentation on rubygems]: https://guides.rubygems.org/patterns/
 
 ## Gem Sources
 
@@ -334,7 +334,7 @@ Including `gem` followed by the name of the gem will make sure that gem is
 installed for the project. Listing a gem without a version will cause Bundler to
 download the newest version of that gem.
 
-Including a specific version, like  `gem 'sinatra', '1.4.5'` will lock the version
+Including a specific version, like `gem 'sinatra', '1.4.5'` will lock the version
 so your app only uses that version.
 
 Including `~>` before the version number will limit your app to using either the
